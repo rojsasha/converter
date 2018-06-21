@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialog"
+        android:padding="@dimen/tv_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Sorry no Connection"
+        android:textColor="@color/colorEdit"
+        android:textSize="@dimen/tv_size" />
+
+    <Button
+        android:padding="@dimen/btn_padding"
+        android:layout_gravity="center"
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>

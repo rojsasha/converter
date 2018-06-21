@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="@dimen/progressBarSize"
+        android:visibility="gone" />
+
+    <EditText
+        android:layout_margin="@dimen/et_margin"
+        android:padding="@dimen/et_padding"
+        android:background="@drawable/edititext_drawable"
+        android:id="@+id/edFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="19"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="@dimen/et_margin"
+        android:padding="@dimen/et_padding"
+        android:background="@drawable/edititext_drawable"
+        android:id="@id/edSecond"
+        android:maxLength="19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/textInternet"
+        android:layout_width="match_parent"
+        android:text="@string/currency_default"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20dp" />
+
+</LinearLayout>
